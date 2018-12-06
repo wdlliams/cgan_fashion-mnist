@@ -1,0 +1,6 @@
+    之前的“firstgit” repository是cgan在mnist数据集上运行的程序，这里是cgan在fashion mnist数据集上运行的程序和结果。虽然两个数据集数据大小格式完全
+一样，但是因为mnist读取、batch的划分有现成的函数，而fashion mnist我没找到对应的函数，所以自己编写相应的函数。为了保存生成的图像还编写了保存生成图像的
+函数。
+    运行该程序需要的条件：
+    1)下载fashion mnist数据集，网址：https://github.com/zalandoresearch/fashion-mnist
+    2)安装tensorflow、numpy、matplotlib库
